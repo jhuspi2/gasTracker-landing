@@ -11,7 +11,7 @@ import AvisoLegal from './pages/AvisoLegal';
 import Privacidad from './pages/Privacidad';
 import CookiesPage from './pages/Cookies';
 
-const APP_URL = 'https://gas-tracker-esp.vercel.app';
+const APP_URL = 'https://gas-tracker-esp.vercel.app'; // URL de producción
 
 // ─── Types ───────────────────────────────────────────────
 interface Feature {
