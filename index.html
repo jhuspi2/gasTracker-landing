@@ -3,8 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GasTracker — Encuentra la gasolinera más barata de España</title>
-    <meta name="description" content="GasTracker te muestra en tiempo real las gasolineras más baratas cerca de ti. Previsión de precios con IA Gemini para los próximos 3 días." />
+
+    <!-- Primary SEO -->
+    <title>GasTracker — Gasolinera más barata cerca de ti | Precios en tiempo real España</title>
+    <meta name="description" content="Encuentra la gasolinera más barata cerca de ti en tiempo real. Más de 11.000 gasolineras en España con precios oficiales del Ministerio. Previsión de precios con IA para los próximos 3 días. Gratis, sin registro." />
+    <meta name="keywords" content="gasolinera más barata, precio gasolina hoy, precio diesel hoy, gasolineras cerca, precio carburante españa, gasolina 95 precio, diesel precio, app gasolineras españa, gasolinera barata" />
+    <meta name="author" content="GasTracker" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://gas-tracker-landing.vercel.app/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gas-tracker-landing.vercel.app/" />
+    <meta property="og:title" content="GasTracker — Gasolinera más barata cerca de ti" />
+    <meta property="og:description" content="Más de 11.000 gasolineras en España con precios oficiales actualizados. Previsión de precios con IA para los próximos 3 días. Gratis y sin registro." />
+    <meta property="og:image" content="https://gas-tracker-landing.vercel.app/hero.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="GasTracker" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GasTracker — Gasolinera más barata cerca de ti" />
+    <meta name="twitter:description" content="Más de 11.000 gasolineras en España con precios oficiales. Previsión con IA. Gratis y sin registro." />
+    <meta name="twitter:image" content="https://gas-tracker-landing.vercel.app/hero.png" />
+
+    <!-- Schema.org — WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "GasTracker",
+      "url": "https://gas-tracker-esp.vercel.app",
+      "description": "Aplicación web gratuita para encontrar la gasolinera más barata cerca de ti en España. Más de 11.000 gasolineras con precios oficiales del Ministerio de Transición Ecológica actualizados cada 30 minutos.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "featureList": [
+        "Mapa de gasolineras en tiempo real",
+        "Previsión de precios con Inteligencia Artificial",
+        "Planificador de ruta con gasolineras baratas",
+        "Alertas de precio",
+        "Geolocalización precisa",
+        "Gasolineras favoritas",
+        "Filtros por combustible y servicios"
+      ],
+      "inLanguage": "es",
+      "isAccessibleForFree": true,
+      "screenshot": "https://gas-tracker-landing.vercel.app/inicio.png",
+      "provider": {
+        "@type": "Person",
+        "name": "Jesús Piazuelo Roca",
+        "email": "jhuspi2@gmail.com"
+      }
+    }
+    </script>
+
+    <!-- Schema.org — FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿De dónde vienen los precios de las gasolineras?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los precios se obtienen en tiempo real de la API oficial del Ministerio de Transición Ecológica y Reto Demográfico del Gobierno de España. Son datos oficiales, públicos y actualizados cada 30 minutos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo funciona la previsión de precios de gasolina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GasTracker utiliza Inteligencia Artificial para analizar el precio del barril de Brent y las tendencias del mercado energético global, generando una predicción fiable para los próximos 3 días."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué combustibles puedo consultar en GasTracker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puedes consultar precios de Gasolina 95, Gasolina 98, Diésel A, Diésel Plus y GLP en todas las gasolineras de España."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿GasTracker es gratis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, GasTracker es completamente gratuito y no requiere registro. Tus favoritos y preferencias se guardan de forma local en tu dispositivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo instalo GasTracker en mi móvil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En Chrome (Android) pulsa el menú y 'Añadir a pantalla de inicio'. En iPhone con Safari pulsa el botón Compartir y 'En pantalla de inicio'. Se instala al instante sin pasar por ninguna tienda de aplicaciones."
+          }
+        }
+      ]
+    }
+    </script>
+
     <meta name="theme-color" content="#0f172a" />
     <link rel="icon" href="/favicon.ico" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1546554667679311"

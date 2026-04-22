@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gas-tracker-landing.vercel.app/sitemap.xml
