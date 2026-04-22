@@ -6,7 +6,6 @@ import {
   Fuel, Brain, Navigation, ShieldCheck, Smartphone, ExternalLink,
   Menu, X, ArrowRight, CheckCircle2, Zap,
 } from 'lucide-react';
-import CookieBanner from './components/CookieBanner';
 import AvisoLegal from './pages/AvisoLegal';
 import Privacidad from './pages/Privacidad';
 import CookiesPage from './pages/Cookies';
@@ -247,7 +246,7 @@ function Landing({ activeFeature, setActiveFeature, menuOpen, setMenuOpen, scrol
   return (
     <div className="min-h-screen text-white overflow-x-hidden relative" style={{ background: '#060b18' }}>
       <BackgroundOrbs />
-      <CookieBanner />
+
       <FeatureModal feature={activeFeature} onClose={() => setActiveFeature(null)} />
 
       {/* ── Navbar ── */}
